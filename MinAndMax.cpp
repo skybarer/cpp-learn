@@ -27,4 +27,9 @@ int main() {
 
     cout << "Min ele : " << mn << endl;
     cout << "Max ele : " << mx << endl;
+
+
+    cout << "Min ele : " << *min_element(arr.begin(), arr.end()) << endl;
+    cout << "Max ele : " << *max_element(arr.begin(), arr.end()) << endl;
+    
 }
