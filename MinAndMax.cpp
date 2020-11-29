@@ -31,5 +31,7 @@ int main() {
 
     cout << "Min ele : " << *min_element(arr.begin(), arr.end()) << endl;
     cout << "Max ele : " << *max_element(arr.begin(), arr.end()) << endl;
-    
+
+    cout << "Min ele  Index : " << min_element(arr.begin(), arr.end()) - arr.begin() << endl;
+    cout << "Max ele Index : " << max_element(arr.begin(), arr.end()) - arr.begin() << endl;
 }
