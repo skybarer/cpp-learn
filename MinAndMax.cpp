@@ -34,4 +34,7 @@ int main() {
 
     cout << "Min ele  Index : " << min_element(arr.begin(), arr.end()) - arr.begin() << endl;
     cout << "Max ele Index : " << max_element(arr.begin(), arr.end()) - arr.begin() << endl;
+
+    cout << "Min ele  Index  from last : " << arr.end() - min_element(arr.begin(), arr.end()) << endl;
+    cout << "Max ele Index from last: " << arr.end() - max_element(arr.begin(), arr.end()) << endl;
 }
